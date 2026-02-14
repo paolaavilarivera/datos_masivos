@@ -1,16 +1,8 @@
-En el contexto de una **Maestría en Ciencia de Datos**, el análisis de sentimiento sobre redes sociales es un caso clásico de aplicación de **Big Data Analytics**, especialmente por el volumen, velocidad y variedad de datos generados.
-
-A continuación te propongo un **caso de uso completo**, con enfoque técnico y ejemplos en **R**, aplicado a la red social X (antes Twitter).
-
----
-
-# 📌 Caso de Uso: Análisis de Sentimiento en X para Evaluar la Percepción Pública de una Política Pública
-
-## 1️⃣ Contexto del Problema
+#### Caso de Uso: Análisis de Sentimiento para evaluar la percepción social de una política pública
 
 Una institución pública desea evaluar la percepción ciudadana sobre una nueva política energética anunciada recientemente.
 
-La red social **X** X representa una fuente de datos no estructurados de alto valor para:
+La red social **X** representa una fuente de datos no estructurados de alto valor para:
 
 * Medir polarización social
 * Detectar tendencias emergentes
@@ -19,7 +11,7 @@ La red social **X** X representa una fuente de datos no estructurados de alto va
 
 ---
 
-# 2️⃣ Enfoque Big Data
+Enfoque Big Data
 
 Desde la perspectiva de Big Data:
 
@@ -41,7 +33,7 @@ El pipeline analítico incluirá:
 
 ---
 
-# 3️⃣ Arquitectura Analítica
+Arquitectura Analítica
 
 ```
 API X → Data Collection → Cleaning → Tokenization → Sentiment Model → Aggregation → Dashboard
@@ -58,12 +50,12 @@ En R trabajaremos con:
 
 ---
 
-# 4️⃣ Extracción de Datos desde X en R
+Extracción de Datos desde X en R
 
-⚠️ Nota: Desde 2023 la API de X tiene restricciones de pago. Se requiere cuenta desarrollador.
+Nota: Desde 2024 la API de X tiene restricciones de pago. Se requiere cuenta desarrollador.
 
 ```r
-# Instalación de librerías
+Instalación 
 install.packages(c("rtweet","tidyverse","tidytext","textclean","syuzhet"))
 
 library(rtweet)
@@ -73,7 +65,7 @@ library(textclean)
 library(syuzhet)
 ```
 
-### Autenticación API
+Autenticación API
 
 ```r
 token <- create_token(
@@ -85,7 +77,7 @@ token <- create_token(
 )
 ```
 
-### Extracción de Tweets
+Extracción de Tweets
 
 ```r
 tweets <- search_tweets(
@@ -100,7 +92,7 @@ head(tweets$text)
 
 ---
 
-# 5️⃣ Preprocesamiento NLP
+Preprocesamiento NLP
 
 El texto en X contiene:
 
@@ -111,7 +103,7 @@ El texto en X contiene:
 * Stopwords
 * Ruido sintáctico
 
-## Limpieza
+Limpieza
 
 ```r
 tweets_clean <- tweets %>%
@@ -124,7 +116,7 @@ tweets_clean <- tweets %>%
 
 ---
 
-# 6️⃣ Tokenización
+Tokenización
 
 ```r
 tweets_tokens <- tweets_clean %>%
@@ -145,7 +137,7 @@ tweets_tokens <- tweets_tokens %>%
 
 ---
 
-# 7️⃣ Análisis de Sentimiento Lexicográfico
+Análisis de Sentimiento Lexicográfico
 
 Utilizaremos el lexicón **Bing** (positivo/negativo).
 
@@ -163,7 +155,7 @@ tweets_sentiment <- tweets_tokens %>%
 
 ---
 
-# 8️⃣ Agregación Temporal
+Agregación Temporal
 
 ```r
 tweets_analysis <- tweets_clean %>%
@@ -176,7 +168,7 @@ tweets_analysis <- tweets_clean %>%
 
 ---
 
-# 9️⃣ Visualización
+Visualización
 
 ```r
 ggplot(tweets_analysis, aes(x = date, y = avg_sentiment)) +
@@ -195,7 +187,7 @@ Interpretación:
 
 ---
 
-# 🔟 Alternativa: Modelo con `syuzhet`
+Alternativa: Modelo con `syuzhet`
 
 ```r
 sentiment_values <- get_sentiment(tweets_clean$text, method = "syuzhet")
@@ -207,7 +199,7 @@ mean(sentiment_values)
 
 ---
 
-# 1️⃣1️⃣ Extensión: Machine Learning Supervisado
+Extensión: Machine Learning Supervisado
 
 Para un enfoque más avanzado:
 
@@ -230,7 +222,7 @@ tweets_dtm <- tweets_tokens %>%
 
 ---
 
-# 1️⃣2️⃣ Métricas de Evaluación
+Métricas de Evaluación
 
 Si se usa ML supervisado:
 
@@ -243,9 +235,9 @@ Si se usa ML supervisado:
 
 ---
 
-# 1️⃣3️⃣ Consideraciones Avanzadas
+Consideraciones Avanzadas
 
-## 🔹 Problemas técnicos
+Problemas técnicos
 
 * Sarcasmo
 * Ironía
@@ -253,7 +245,7 @@ Si se usa ML supervisado:
 * Bots
 * Polarización artificial
 
-## 🔹 Escalabilidad Big Data
+Escalabilidad Big Data
 
 En entornos productivos:
 
@@ -261,40 +253,3 @@ En entornos productivos:
 * Bases NoSQL (MongoDB)
 * Arquitectura Lambda
 * Procesamiento streaming
-
----
-
-# 1️⃣4️⃣ Valor Académico en la Maestría
-
-Este caso permite enseñar:
-
-* NLP aplicado
-* Ingeniería de datos
-* Procesamiento de datos no estructurados
-* Ética y privacidad
-* Analítica social computacional
-* Ciencia de datos reproducible en R
-
----
-
-# 1️⃣5️⃣ Posible Proyecto Final
-
-“Modelo predictivo de cambio de sentimiento ante anuncios gubernamentales usando series temporales y NLP en X”
-
-Incluyendo:
-
-* Detección de cambio estructural
-* Clustering de tópicos (LDA)
-* Análisis de redes de interacción
-* Detección de comunidades
-
----
-
-Si quieres, puedo ayudarte a convertir esto en:
-
-* 📚 Un documento formal tipo guía docente
-* 📊 Una rúbrica de evaluación
-* 🧠 Una versión avanzada con Deep Learning
-* 🔐 Un enfoque con consideraciones legales y protección de datos
-
-¿Quieres que lo enfoquemos hacia sector público, sector privado o análisis electoral?
