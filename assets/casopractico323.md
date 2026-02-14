@@ -272,9 +272,6 @@ Si se usa ML supervisado:
 * Matriz de confusión
 * AUC-ROC
 
-
-Aquí tienes una **tabla detallada** que describe las métricas más comunes para evaluar modelos de análisis de sentimiento:
-
 ***
 
 | **Métrica**             | **Qué es**                                                              | **Qué mide**                                        | **Cómo se interpreta**                                         | **Ventajas**                                                               | **Limitaciones**                                                         |
@@ -315,7 +312,9 @@ _________________
 Referencias 
 
 > Saini, S., Punhani, R., Bathla, R., & Shukla, V. K. (2019). Sentiment analysis on Twitter data using R. ResearchGate. 
+
 > Klinkhammer, D. (2022). Sentiment analysis with R: Natural language processing for semi-automated assessments of qualitative data (Working paper). 
+
 > Schweinberger, M. (2022). Sentiment analysis in R. Tutorial basado en tidytext, sentimentr y lexicones emocionales. 
 
 
