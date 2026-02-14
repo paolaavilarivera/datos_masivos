@@ -27,7 +27,7 @@
 - 3.2 [Minería de datos en (X) antes Twitter para sentiment análisis.](assets/mineria_X.md)
 - 3.2.1 [Creación de cuenta para desarrollador, Application Programming Interface (API)](assets/mineria_X.md)
 - 3.2.2 [Paquetería para (X) antes Twitter Mining](assets/paqueteria_x.md)
-- 3.2.3 Caso práctico: El estado de ánimo de los tuiteros
+- 3.2.3 [Caso práctico: El estado de ánimo de los tuiteros](assets/casopractico323.md)
 
 #### Unidad 4 Análisis de datos en Python.
 - 4.1 Conceptos básicos de Python.
