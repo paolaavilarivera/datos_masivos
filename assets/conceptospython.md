@@ -14,10 +14,6 @@ Más allá del lenguaje base, Python destaca por su **ecosistema de librerías**
 
 Finalmente, Python promueve una filosofía de código limpio y legible, conocida como *The Zen of Python*, que favorece soluciones simples, explícitas y elegantes. Esta filosofía, junto con la robustez de su comunidad, convierte al lenguaje en una herramienta imprescindible para cualquier profesional de la ciencia de datos.
 
-¡Claro, Díaz! Aquí tienes una **tabla comparativa** concisa y práctica de **Python vs R** enfocada en **análisis de datos masivos (big data)**, pensada para tu materia de *Análisis de Datos en Python* en la maestría.
-
-> **Nota**: Evito código dentro de la tabla para asegurar una visualización correcta.
-
 ### Python - R para análisis de datos masivos
 
 | Criterio                     | **Python**                                                                                                                    | **R**                                                                                                                              |
