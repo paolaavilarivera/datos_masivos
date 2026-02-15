@@ -31,7 +31,7 @@
 
 #### Unidad 4 Análisis de datos en Python.
 - 4.1 [Conceptos básicos de Python.](assets/conceptospython.md)
-- 4.1.1 ¿Qué es y cómo instalar Python?
+- 4.1.1 [¿Qué es y cómo instalar Python?](assets/instalacion_python.md)
 - 4.1.2 Ejecución de código en Jupyter
 - 4.1.3 Sintaxis
 - 4.2 Análisis de datos en Python.
