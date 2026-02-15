@@ -1,4 +1,4 @@
-
+#### Ejemplo que muestra la Gestión, exploración y visualización efectiva de los datos
 
 
 1) Preparación del entorno y generación de datos
