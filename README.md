@@ -36,7 +36,7 @@
 - 4.1.3 [Sintaxis](assets/sintaxispython.md)
 - 4.2 [Análisis de datos en Python.](assets/analisisdatospython.md)
 - 4.2.1 [Fuentes de datos](assets/fuentesdatospython.md)
-- 4.2.2 Tipos de datos que se pueden recopilar
+- 4.2.2 [Tipos de datos que se pueden recopilar](assets/tiposdatospython.md)
 - 4.2.3 Gestión, exploración y visualización efectiva de los datos
 - 4.3 Interpretación de datos inferenciales y modelación estadística.
 - 4.3.1 Análisis de datos con pandas, numpy y matplotlib
