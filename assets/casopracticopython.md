@@ -1,5 +1,4 @@
-¡Excelente idea, Edgar! 👋  
-A continuación te dejo **dos casos prácticos end‑to‑end** en **Python** orientados a *Big Data & Data*, con un enfoque **técnico y didáctico** para una maestría. Ambos usan **PySpark** (ecosistema estándar en análisis de datos masivos) e incluyen **visualización** (vía `matplotlib`/`seaborn`) después de **agregar/muestrear** los resultados, práctica habitual cuando los datasets son grandes.
+#### Casos prácticos de análisis y visualización de datos.
 
 > **Casos**
 >
@@ -8,19 +7,19 @@ A continuación te dejo **dos casos prácticos end‑to‑end** en **Python** or
 
 ***
 
-## Caso 1 — Detección de anomalías en telemetría IoT en **streaming** (Kafka + PySpark Structured Streaming)
+Caso 1 — Detección de anomalías en telemetría IoT en **streaming** (Kafka + PySpark Structured Streaming)
 
-### Objetivo
+Objetivo
 
 Procesar millones de eventos IoT por hora desde Kafka, limpiar/normalizar, agregar por **ventanas deslizantes** y detectar **anomalías** a nivel ventana (e.g., valores que superan *μ + 3σ*). Persistimos métricas en **Delta/Parquet** o **memoria** para visualización.
 
-### Arquitectura (conceptual)
+Arquitectura (conceptual)
 
 **Dispositivos IoT → Kafka (tópico: `iot_telemetry`) → PySpark Structured Streaming → Agregación con ventanas + anomalías → Sink (Delta/Parquet o memoria) → Visualización**
 
 ***
 
-### Código (comentado y listo para adaptar)
+Código (comentado y listo para adaptar)
 
 > **Notas**
 >
@@ -140,7 +139,7 @@ for i in range(3):
 # query_memory.awaitTermination()  # Descomentar en un entorno real
 ```
 
-#### Visualización (gráfica) de anomalías por ventana
+Visualización (gráfica) de anomalías por ventana
 
 > En Big Data, **no** graficamos el *stream completo*; tomamos un **sample** o **últimas ventanas** agregadas.
 
@@ -183,19 +182,19 @@ if not pdf_last.empty:
 
 ***
 
-## Caso 2 — Clickstream a escala: **sessionización**, **funnel** de conversión y **transiciones** (Spark DataFrames/SQL)
+Caso 2 — Clickstream a escala: **sessionización**, **funnel** de conversión y **transiciones** (Spark DataFrames/SQL)
 
-### Objetivo
+Objetivo
 
 Procesar *logs* web de alto volumen (billones de filas en crudo), crear **sesiones** por usuario, calcular un **embudo** (Home → Product → Cart → Checkout → Purchase) y derivar una **matriz de transiciones** entre páginas para análisis UX.
 
-### Esquema típico (Parquet particionado)
+Esquema típico (Parquet particionado)
 
 `user_id, ts, url, page_type, referrer, device, country, traffic_source, txn_value`
 
 ***
 
-### Código (comentado y listo para adaptar)
+Código (comentado y listo para adaptar)
 
 ```python
 # ============================================================
@@ -323,7 +322,7 @@ pdf_funnel = spark.createDataFrame([
 pdf_trans = df_top_trans.toPandas()
 ```
 
-#### Visualizaciones (funnel y matriz de transiciones)
+Visualizaciones (funnel y matriz de transiciones)
 
 ```python
 import matplotlib.pyplot as plt
@@ -366,7 +365,7 @@ if not pdf_trans.empty:
 
 ***
 
-## Cómo integrarlo en tu materia (sugerencia didáctica)
+Cómo integrarlo en tu materia (sugerencia didáctica)
 
 *   **Actividad guiada**:
     *   Proveer un **dataset sintético** (IoT y clickstream) en Parquet.
@@ -383,9 +382,7 @@ if not pdf_trans.empty:
 
 ***
 
-## Requisitos y ejecución
+Requisitos y ejecución
 
 *   **Infra**: Spark 3.3+ (ideal 3.5.x), Python 3.9+, almacenamiento (S3/ADLS/HDFS), opcional **Kafka**.
 *   **Paquetes**: `pyspark`, `matplotlib`, `seaborn`. (Opcional: `delta-spark`, `plotly`, `networkx`).
-
-> Si lo deseas, puedo **empaquetar esto en un cuaderno .ipynb** (o en scripts `.py`) con datasets sintéticos listos para ejecutar en tu entorno. ¿Prefieres **Databricks**, **EMR**, **Spark local**, o un **cluster** on-prem?
