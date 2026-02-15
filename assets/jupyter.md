@@ -1,3 +1,13 @@
+#### Jupyter 
+
+Es un entorno de desarrollo interactivo (IDE) diseñado para facilitar la computación científica, el análisis de datos y la creación de documentos computacionales. Se basa en el concepto de notebook, un tipo de documento que integra código ejecutable, visualizaciones, resultados, texto en formato enriquecido, ecuaciones y elementos interactivos en un mismo espacio de trabajo. Esta estructura permite prototipar, documentar y comunicar procesos de análisis de manera clara y reproducible, convirtiendo a Jupyter en una herramienta ampliamente utilizada en ciencia de datos, educación, investigación y desarrollo de software. 
+
+El ecosistema de Jupyter incluye interfaces como Jupyter Notebook, orientada a una experiencia sencilla y centrada en la escritura secuencial, y JupyterLab, una plataforma más robusta que proporciona una interfaz modular con pestañas, terminales, editores de texto, explorador de archivos y múltiples paneles. Ambas herramientas permiten ejecutar código en diferentes lenguajes mediante kernels, aunque Python es el más popular. 
+
+En cuanto a su modelo de licenciamiento, Jupyter es completamente software libre y de código abierto, distribuido bajo la licencia BSD de 3 cláusulas. Esta licencia es de tipo permisivo, lo que permite el uso, modificación, redistribución y uso comercial del software, siempre que se respeten ciertos requisitos mínimos: mantener el aviso de copyright, incluir el texto de la licencia y evitar el uso del nombre del proyecto o sus contribuidores para promocionar derivados sin permiso explícito. 
+
+El licenciamiento BSD‑3 favorece la adopción amplia en entornos académicos, empresariales y comerciales debido a su flexibilidad y baja restricción. Además, Jupyter mantiene un modelo de copyright compartido, en el cual cada contribuidor conserva los derechos sobre sus aportaciones, pero el proyecto se distribuye colectivamente bajo la misma licencia. 
+Jupyter, como proyecto, se compromete a permanecer 100% abierto y libre, garantizando que sus herramientas continuarán disponibles sin restricciones de acceso, alineadas con su misión de promover la computación interactiva en beneficio global.
 
 
 **1. Instalación de Jupyter en Microsoft Windows**
@@ -235,4 +245,3 @@ Ejecutar:
 docker compose up --build
 ```
 
-***
