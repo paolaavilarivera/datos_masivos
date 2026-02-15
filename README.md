@@ -41,7 +41,7 @@
 - 4.3 [Interpretación de datos inferenciales y modelación estadística.](assets/inferencialespython.md)
 - 4.3.1 [Análisis de datos con pandas, numpy y matplotlib](assets/analisispandas.md)
 - 4.3.2 [Importar y exportar datos desde Excel](assets/importarexportarpython.md)
-- 4.3.3 Arrays &amp; Dataframes
+- 4.3.3 [Arrays &amp; Dataframes](assets/arraysdataframes.md)
 - 4.4 Casos prácticos de análisis y visualización de datos.
 - 4.4.1 Visualización dinámica
 
