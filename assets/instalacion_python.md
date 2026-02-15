@@ -141,7 +141,7 @@ CMD ["python", "app.py"]
  Notas:
 
 *   Usar etiquetas específicas (**python:3.12.2**) evita cambios inesperados en actualizaciones.
-*   Variantes disponibles: **slim**, **alpine**, **bookworm**, etc. para imágenes más ligeras. [\[hub.docker.com\]](https://hub.docker.com/_/python/)
+*   Variantes disponibles: **slim**, **alpine**, **bookworm**, etc. para imágenes más ligeras. 
 
 ***
 
@@ -161,6 +161,6 @@ RUN apt-get update && apt-get install -y python3 python3-pip && rm -rf /var/lib/
 
 *   Evitar `sudo` en Dockerfile; trabajar siempre como root o cambiar contexto según necesidad. 
 *   Mantener imágenes pequeñas usando `slim` o `alpine`.
-*   Fijar versiones de paquetes y usar `requirements.txt`. [\[pytutorial.com\]](https://pytutorial.com/install-python-package-in-docker/)
+*   Fijar versiones de paquetes y usar `requirements.txt`. 
 
 ***
