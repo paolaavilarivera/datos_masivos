@@ -278,7 +278,7 @@ Explicación (qué hace cada bloque y por qué)
 
 ***
 
-## ➕ Variantes útiles
+Variantes útiles
 
 *   **Excel con múltiples DataFrames apilados**: usa `startrow` y `startcol` para colocar reportes en zonas distintas de la misma hoja.
 *   **Estilos con `pandas` Styler**: prepara una tabla formateada (colores, barras) y luego exporta con `to_excel` (*soporte limitado*; para control fino, prefiere `openpyxl`).
