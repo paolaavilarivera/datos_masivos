@@ -1,7 +1,7 @@
-
+#### Análisis de datos con pandas, numpy y matplotlib
 ***
 
-Código de ejemplo (listo para ejecutar)
+Código de ejemplo
 
 > **Supuesto de datos**: archivo CSV gigante con ventas (`fecha`, `categoria`, `precio`, `unidades`, `descuento_pct`, `sucursal`, `metodo_pago`).  
 > **Objetivo**: KPI diarios y por categoría, estadística descriptiva robusta, y gráficos “amigables a big data”.
