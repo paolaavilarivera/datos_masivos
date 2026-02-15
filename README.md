@@ -34,7 +34,7 @@
 - 4.1.1 [¿Qué es y cómo instalar Python?](assets/instalacion_python.md)
 - 4.1.2 [Ejecución de código en Jupyter](assets/jupyter.md)
 - 4.1.3 [Sintaxis](assets/sintaxispython.md)
-- 4.2 Análisis de datos en Python.
+- 4.2 [Análisis de datos en Python.](assets/analisisdatospython.md)
 - 4.2.1 Fuentes de datos
 - 4.2.2 Tipos de datos que se pueden recopilar
 - 4.2.3 Gestión, exploración y visualización efectiva de los datos
