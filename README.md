@@ -38,7 +38,7 @@
 - 4.2.1 [Fuentes de datos](assets/fuentesdatospython.md)
 - 4.2.2 [Tipos de datos que se pueden recopilar](assets/tiposdatospython.md)
 - 4.2.3 [Gestión, exploración y visualización efectiva de los datos](assets/gestiondatospython.md)
-- 4.3 Interpretación de datos inferenciales y modelación estadística.
+- 4.3 [Interpretación de datos inferenciales y modelación estadística.](assets/inferencialespython.md)
 - 4.3.1 Análisis de datos con pandas, numpy y matplotlib
 - 4.3.2 Importar y exportar datos desde Excel
 - 4.3.3 Arrays &amp; Dataframes
