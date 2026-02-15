@@ -39,31 +39,31 @@ Finalmente, Python promueve una filosofía de código limpio y legible, conocida
 
 EJEMPLOS 
 
-## **Optimización de inventarios en una cadena de distribución**
+**Optimización de inventarios en una cadena de distribución**
 
 Una empresa de logística que maneja millones de movimientos diarios utiliza Python para procesar datos provenientes de sensores RFID, sistemas de punto de venta y registros de transporte. Con herramientas como **PySpark** y **Dask**, el equipo de analítica puede depurar y consolidar enormes volúmenes de información en tiempo real. Mediante modelos de pronóstico desarrollados con **scikit-learn**, la empresa anticipa la demanda futura y ajusta los niveles de inventario por región. Esto reduce costos por almacenamiento, evita desabasto y permite planificar rutas más eficientes.
 
 ***
 
-## **Detección de fraudes en transacciones financieras**
+**Detección de fraudes en transacciones financieras**
 
 En una institución bancaria que procesa millones de transacciones por hora, Python es clave para detectar actividades inusuales. Los datos son ingeridos mediante flujos en **Apache Kafka**, analizados con **PySpark** y evaluados por modelos de machine learning entrenados con Python. Estos modelos detectan patrones sospechosos —como compras repetitivas, cambios anómalos de ubicación o transferencias atípicas— con milisegundos de retraso. La combinación de Python + Spark permite que el sistema sea escalable, actualizable y capaz de adaptarse a nuevos patrones de fraude.
 
 ***
 
-## **Análisis de comportamiento del cliente en un e‑commerce**
+**Análisis de comportamiento del cliente en un e‑commerce**
 
 Una plataforma de comercio electrónico maneja grandes volúmenes de datos provenientes de clicks, búsquedas, vistas de productos y compras. Python facilita el análisis masivo mediante **pandas**, **Polars** o **Spark**, generando perfiles detallados de comportamiento del cliente. Con **TensorFlow** y **PyTorch**, se entrenan modelos de recomendación que personalizan la experiencia de compra. Los resultados pueden incluir recomendaciones de productos, segmentación dinámica y ajustes automáticos de campañas. Todo esto se ejecuta millones de veces por día, optimizando conversión y lealtad.
 
 ***
 
-## **Mantenimiento predictivo en una empresa manufacturera**
+**Mantenimiento predictivo en una empresa manufacturera**
 
 En una fábrica con maquinaria industrial avanzada, miles de sensores generan datos continuamente: temperatura, vibración, presión, voltaje, entre otros. Python permite ingerir este caudal de información con **Spark Streaming** y procesarlo en tiempo real. Luego, modelos predictivos analizan las variaciones y anticipan fallas antes de que ocurran. Esto reduce costos por reparación, disminuye tiempos muertos y aumenta la vida útil de los equipos. Python es fundamental para manejar tanto los datos masivos como los algoritmos de predicción.
 
 ***
 
-## **Monitoreo de reputación y análisis de sentimiento a gran escala**
+**Monitoreo de reputación y análisis de sentimiento a gran escala**
 
 Una empresa de telecomunicaciones quiere entender la percepción de los clientes en redes sociales. Cada día se generan millones de menciones, comentarios y publicaciones. Python se utiliza para extraer esta información mediante APIs y pipelines distribuidos en Spark. Posteriormente, técnicas de procesamiento de lenguaje natural (NLP) con **spaCy** o **HuggingFace Transformers** analizan el sentimiento, las quejas recurrentes, tendencias emergentes y temas sensibles. Este análisis masivo permite actuar de forma rápida: atender problemas, ajustar campañas o mejorar servicios basados en retroalimentación real.
 
