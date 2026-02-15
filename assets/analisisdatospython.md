@@ -17,7 +17,7 @@ En conjunto, Python proporciona un entorno completo, potente y accesible para pr
 
 ***
 
-# **Ejemplo de análisis básico en Python**
+**Ejemplo de análisis básico en Python**
 
 ```python
 import pandas as pd
