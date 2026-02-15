@@ -1,3 +1,4 @@
+#### Interpretación de datos inferenciales y modelación estadística.
 
 1.  **Inferencia** (prueba t de Welch a partir de agregados distribuidos —sin traer todo a memoria—).
 2.  **Modelación estadística** a gran escala:
