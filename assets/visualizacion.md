@@ -1,21 +1,6 @@
-¡Excelente idea para tu materia de **Big Data & Data**! 👩‍🏫👨‍🏫  
-A continuación te dejo un **ejemplo completo y didáctico** en Python para construir una **visualización dinámica y escalable** de “datos masivos”, aprovechando **Dask + Datashader + hvPlot + Panel**. Este stack te permite **interactuar (zoom/pan/filtros)** sobre millones de puntos sin colapsar la memoria, ya que **agrega/pinta por pixeles** en lugar de graficar cada punto individual.
+#### Visualización dinámica
 
-***
-
-## ¿Qué incluye?
-
-*   🔹 **Generación/lectura de datos masivos** (sintéticos) con `dask.datasets.timeseries` (decenas de millones de filas).
-*   🔹 **Filtrado dinámico** por **rango de fechas** y **categorías** (columna `name`).
-*   🔹 **Gráfico principal**: nube de puntos masiva (`x` vs `y`) con **Datashader** (zoom/pan fluidos).
-*   🔹 **Gráfico de apoyo**: serie de tiempo agregada (línea datashade).
-*   🔹 **Panel (dashboard)** con **widgets** y servidor web interactivo.
-
-> **Por qué funciona para “big data”**: Datashader rasteriza/agrupa puntos a nivel de pixel, por lo que puede visualizar **decenas o cientos de millones de registros** sin necesidad de “dibujar” cada punto.
-
-***
-
-## Requisitos
+Requisitos
 
 > Si usas un entorno nuevo, instala dependencias (una sola vez):
 
@@ -25,7 +10,7 @@ pip install "dask[complete]" hvplot holoviews datashader bokeh panel colorcet py
 
 ***
 
-## Código (guárdalo como `dashboard_bigdata.py`)
+Código (guárdalo como `dashboard_bigdata.py`)
 
 ```python
 # -*- coding: utf-8 -*-
@@ -190,7 +175,7 @@ layout.servable()
 
 ***
 
-## ¿Cómo ejecutar?
+¿Cómo ejecutar?
 
 1.  Guarda el script como `dashboard_bigdata.py`.
 2.  Instala dependencias (una vez):  
@@ -203,7 +188,7 @@ layout.servable()
 
 ***
 
-## Buenas prácticas para “datos masivos”
+Buenas prácticas para “datos masivos”
 
 *   **Formato de entrada**: usa **Parquet** (columnar, comprimido) en vez de CSV cuando trabajes con datos reales.
 *   **Lectura con Dask**: `dd.read_parquet("ruta/*.parquet")` aprovecha múltiples cores/particiones.
@@ -217,7 +202,7 @@ layout.servable()
 
 ***
 
-## Extensiones opcionales para tu clase
+Extensiones opcionales para tu clase
 
 *   **Mapa geoespacial**: si tus datos tienen `lat/lon`, usa `geo=True` en `hvplot` y tiles web (requiere internet):
     ```python
@@ -231,12 +216,5 @@ layout.servable()
 
 ***
 
-## ¿Quieres que lo adaptemos a un dataset real?
 
-Si cuentas con datos (por ejemplo, telemetría, transacciones o movilidad en Aguascalientes), te lo ajusto para:
 
-*   Leer **Parquet/CSV particionado por fecha**.
-*   Definir **filtros** específicos (sector, municipio, rango de montos).
-*   Añadir **KPIs** y **resúmenes** (cuentas, percentiles, mapas de calor, etc.).
-
-¿Te gustaría que lo deje listo para un dataset tuyo o que genere automáticamente un **.ipynb** con explicaciones para el alumnado?
