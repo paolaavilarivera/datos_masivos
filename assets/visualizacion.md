@@ -202,19 +202,6 @@ Buenas prácticas para “datos masivos”
 
 ***
 
-Extensiones opcionales para tu clase
-
-*   **Mapa geoespacial**: si tus datos tienen `lat/lon`, usa `geo=True` en `hvplot` y tiles web (requiere internet):
-    ```python
-    ddf.hvplot.points(x='lon', y='lat', geo=True, tiles='CartoLight', datashade=True, cmap=cc.fire)
-    ```
-*   **Dashboard multi-vista**: añade **histogramas** y **resúmenes**:
-    ```python
-    hist = idf_filtrado.hvplot.hist('x', bins=100, width=450, height=250)
-    ```
-*   **Streaming** (tiempo real): con **Bokeh** o **Panel** puedes usar `.stream()` para actualizar gráficos en vivo (IoT, logs, etc.).
-
-***
 
 
 
