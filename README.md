@@ -43,7 +43,7 @@
 - 4.3.2 [Importar y exportar datos desde Excel](assets/importarexportarpython.md)
 - 4.3.3 [Arrays &amp; Dataframes](assets/arraysdataframes.md)
 - 4.4 [Casos prácticos de análisis y visualización de datos.](assets/casopracticopython.md)
-- 4.4.1 Visualización dinámica
+- 4.4.1 [Visualización dinámica](assets/visualizacion.md)
 
 #### Unidad 5 Análisis de redes sociales. (social network analysis)
 - 5.1 ¿Qué es Social Analytics y cuáles son sus usos?
