@@ -1,4 +1,4 @@
-### Temario
+#### Temario
 
 #### Unidad 1 Introducción a Big Data y la ciencia de datos.
 - 1.1 [Big Data: Datos estructurados y datos no estructurados](assets/tiposdedatos.md)
@@ -68,31 +68,16 @@ Referencias
 
 > Kotu, V., & Deshpande, B. (2022). Data science: Concepts and practice (2nd ed.). Morgan Kaufmann.
 
+> Sarker, I. H. (2022). Machine learning and big data analytics: A practical guide. Springer.
 
-Sarker, I. H. (2022). Machine learning and big data analytics: A practical guide. Springer.
+> Minelli, M., Chambers, M., & Dhiraj, A. (2023). Big data, big analytics: Emerging business intelligence and analytic trends for today's businesses (Updated ed.). Wiley.
 
+> Dasgupta, D., Aksoy, S. G., & Nino, F. (2023). AI and deep learning in big data analysis. Springer.
 
+> Nathan, S. (2024). Modern big data architectures: Data engineering principles and practical patterns. O’Reilly Media.
 
-2023
-
-
-Minelli, M., Chambers, M., & Dhiraj, A. (2023). Big data, big analytics: Emerging business intelligence and analytic trends for today's businesses (Updated ed.). Wiley.
-
-
-Dasgupta, D., Aksoy, S. G., & Nino, F. (2023). AI and deep learning in big data analysis. Springer.
-
-
-
-2024
-
-Nathan, S. (2024). Modern big data architectures: Data engineering principles and practical patterns. O’Reilly Media.
-
-
-2025
-
-Torres, J., & Ramírez, P. (2025). Applied big data systems: Architectures, pipelines, and scalable analytics. Elsevier.
-
+> Torres, J., & Ramírez, P. (2025). Applied big data systems: Architectures, pipelines, and scalable analytics. Elsevier.
 
 ________________________
-> Maestría en Ciencia de Datos | Universidad de la Ciudad de Aguascalientes 
+####  Maestría en Ciencia de Datos | Universidad de la Ciudad de Aguascalientes 
 
