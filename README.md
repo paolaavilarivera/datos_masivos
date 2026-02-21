@@ -55,6 +55,43 @@
 - 5.2.5 Análisis de sentimientos en texto
 - 5.2.6 Network
 - 5.3 Consideraciones éticas sobre el análisis de redes sociales
+_____________________________
+Referencias 
+
+> Provost, F., & Fawcett, T. (2020). Data science for business: What you need to know about data mining and data-analytic thinking (2nd ed.). O’Reilly Media.
+
+> Marr, B. (2020). Big data in practice: How 45 successful companies used big data analytics to deliver extraordinary results (2nd ed.). Wiley.
+
+> Kelleher, J. D., & Tierney, B. (2021). Data science: A comprehensive overview. MIT Press.
+
+> Gutierrez, G. (2021). Big data analytics: From strategic planning to enterprise integration with tools, techniques, NoSQL, and graph. Apress.
+
+> Kotu, V., & Deshpande, B. (2022). Data science: Concepts and practice (2nd ed.). Morgan Kaufmann.
+
+
+Sarker, I. H. (2022). Machine learning and big data analytics: A practical guide. Springer.
+
+
+
+2023
+
+
+Minelli, M., Chambers, M., & Dhiraj, A. (2023). Big data, big analytics: Emerging business intelligence and analytic trends for today's businesses (Updated ed.). Wiley.
+
+
+Dasgupta, D., Aksoy, S. G., & Nino, F. (2023). AI and deep learning in big data analysis. Springer.
+
+
+
+2024
+
+Nathan, S. (2024). Modern big data architectures: Data engineering principles and practical patterns. O’Reilly Media.
+
+
+2025
+
+Torres, J., & Ramírez, P. (2025). Applied big data systems: Architectures, pipelines, and scalable analytics. Elsevier.
+
 
 ________________________
 > Maestría en Ciencia de Datos | Universidad de la Ciudad de Aguascalientes 
