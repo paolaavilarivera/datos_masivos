@@ -1,100 +1,17 @@
-#### Caso de uso 1
-Optimización de la cadena de suministro en una empresa de retail mediante Big Data
+#### Caso 1
 
-Contexto
-Una empresa de **retail omnicanal** (tiendas físicas + comercio electrónico) maneja miles de productos y opera en diferentes regiones del país. El principal problema es:
+Una empresa ficticia denominada **DataSynergy Corp.**, dedicada a la provisión de servicios logísticos inteligentes a escala nacional, decide implementar una **estrategia integral de gestión y explotación avanzada de datos** con el objetivo de optimizar sus procesos operativos, mejorar la toma de decisiones y generar ventajas competitivas sostenibles. Esta estrategia se fundamenta en la convergencia de **Business Process Management (BPM)**, analítica avanzada, ciencia de datos y **agentes computacionales inteligentes**, todo soportado sobre una arquitectura moderna de **Data Warehouse, Data Lake y Data Lakehouse**.
 
-* Sobreinventario en algunas tiendas
-* Desabasto en otras
-* Altos costos logísticos
-* Pérdida de ventas por mala planeación de la demanda
+En el núcleo organizacional, **BPM** estructura la operación mediante la alineación de **procesos, roles y tecnología**, permitiendo modelar, automatizar y monitorear los flujos de trabajo críticos de la empresa. A partir de esta gobernanza de procesos, la organización integra múltiples fuentes de información provenientes de sistemas transaccionales (ERP, CRM, sensores IoT de flotas logísticas, registros geoespaciales y plataformas de comercio electrónico). Estos datos son ingeridos y almacenados en una arquitectura **Data Lakehouse**, la cual combina la flexibilidad del Data Lake con las capacidades analíticas estructuradas de un Data Warehouse, permitiendo interoperabilidad entre cargas analíticas, exploración de datos y entrenamiento de modelos de inteligencia artificial.
 
-Fuentes de datos (Big Data)
+Sobre esta base tecnológica se despliega un ecosistema de **Business Intelligence (BI)** orientado a la generación de **insights estratégicos** mediante la exploración histórica de datos. Los analistas desarrollan dashboards interactivos y modelos de indicadores clave de desempeño (KPIs) que permiten monitorear variables como tiempos de entrega, eficiencia de rutas, consumo energético de la flota y niveles de satisfacción del cliente. Estos mecanismos facilitan la **toma de decisiones basada en evidencia**, transformando grandes volúmenes de datos operativos en conocimiento accionable.
 
-La empresa integra grandes volúmenes y variedades de datos, tales como:
+Complementariamente, el área de **Business Analytics** implementa modelos analíticos descriptivos, predictivos y prescriptivos. El análisis descriptivo permite identificar patrones de comportamiento en la demanda logística; los modelos predictivos, basados en aprendizaje automático, estiman picos de demanda o posibles retrasos en las cadenas de suministro; mientras que la analítica prescriptiva genera recomendaciones optimizadas para la asignación de recursos, rutas de distribución y planificación de inventarios.
 
-* Históricos de ventas (millones de transacciones)
-* Datos en tiempo real de punto de venta (POS)
-* Comportamiento de clientes en la plataforma web y app
-* Datos logísticos (tiempos de entrega, rutas, proveedores)
-* Variables externas: clima, estacionalidad, eventos locales
+En un nivel más avanzado, el equipo de **Data Science** desarrolla modelos de inteligencia artificial utilizando técnicas de **Machine Learning, Deep Learning y Procesamiento de Lenguaje Natural (PLN)**. Estos modelos requieren pipelines robustos de **ELT (Extract, Load, Transform)** para la preparación de datos, así como plataformas de **MLOps** que permitan automatizar el ciclo de vida de los modelos, desde el entrenamiento y validación hasta su despliegue y monitoreo continuo en producción.
 
-Estos datos cumplen claramente con las **5 V del Big Data**: volumen, velocidad, variedad, veracidad y valor.
+La estrategia se fortalece mediante la incorporación de **agentes computacionales inteligentes**, los cuales integran **Large Language Models (LLMs)** y **Small Language Models (SLMs)** especializados para tareas específicas. A través de arquitecturas **RAG (Retrieval-Augmented Generation)** y protocolos de contexto como **MCP**, estos agentes pueden interactuar con bases de conocimiento corporativas, repositorios documentales y sistemas empresariales, facilitando la automatización de análisis, la generación de reportes ejecutivos y la asistencia inteligente en procesos operativos.
 
-Aplicación de Ciencia de Datos
+Finalmente, toda la arquitectura se encuentra respaldada por un marco sólido de **gobernanza de datos y ética algorítmica**, que incluye políticas de calidad de datos, mecanismos de **privacidad y protección de información**, mitigación de sesgos en modelos de inteligencia artificial y cumplimiento normativo. Este enfoque integral permite que DataSynergy Corp. no solo aproveche el valor estratégico de los datos, sino que también garantice confianza, transparencia y sostenibilidad en sus procesos analíticos.
 
-Mediante técnicas de **analítica avanzada y machine learning**, la empresa:
-
-* Construye **modelos predictivos de demanda**
-* Identifica patrones de consumo por región y temporada
-* Optimiza rutas logísticas usando analítica geoespacial
-* Simula escenarios (“qué pasaría si…”) ante cambios de precio o promociones
-
-Beneficios empresariales
-
-* Reducción del sobreinventario hasta en un 25%
-* Menor pérdida de ventas por desabasto
-* Optimización de costos de transporte
-* Mejora en la satisfacción del cliente
-* Toma de decisiones basada en datos y no en intuición
-
-Valor para Big Data & Data Science
-
-Este caso muestra cómo Big Data:
-
-* Transforma procesos operativos clave
-* Permite decisiones predictivas y no reactivas
-* Genera ventajas competitivas sostenibles
-
-_______________________________
-
-#### Caso de uso 2
-
-Personalización de servicios financieros mediante Big Data en una fintech
-
-Contexto
-
-Una **fintech** ofrece créditos y servicios financieros digitales a miles de usuarios. El reto principal es:
-
-* Evaluar riesgo crediticio de manera justa y rápida
-* Ofrecer productos personalizados
-* Reducir fraudes y morosidad
-
-Fuentes de datos (Big Data)
-
-La empresa analiza:
-
-* Historial transaccional de los usuarios
-* Comportamiento en la app (clics, navegación, frecuencia)
-* Datos sociodemográficos
-* Información alternativa (pagos de servicios, patrones de gasto)
-* Datos en tiempo real para detección de fraude
-
-Estos datos son masivos, heterogéneos y de alta velocidad.
-
-Aplicación de Ciencia de Datos
-
-Se utilizan:
-
-* Modelos de **scoring crediticio con machine learning**
-* Algoritmos de **segmentación de clientes**
-* Sistemas de **detección de fraude en tiempo real**
-* Modelos de recomendación de productos financieros
-
-Beneficios empresariales
-
-* Aprobación de créditos más rápida y precisa
-* Reducción de riesgos financieros
-* Inclusión financiera de nuevos perfiles de clientes
-* Mayor lealtad y retención de usuarios
-* Incremento de ingresos por productos personalizados
-
-Valor para Big Data & Data Science
-
-Este caso evidencia cómo:
-
-* Big Data permite decisiones en tiempo real
-* La ciencia de datos convierte datos en conocimiento accionable
-* Se mejora tanto la rentabilidad como la experiencia del usuario
-
-
+Como resultado, la empresa logra evolucionar hacia una **organización verdaderamente data-driven**, donde la integración de procesos, analítica avanzada e inteligencia artificial genera mejoras sustanciales en eficiencia operativa, innovación y capacidad de adaptación en entornos altamente dinámicos.
