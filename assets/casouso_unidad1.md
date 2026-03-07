@@ -98,6 +98,8 @@ Como resultado, la empresa logra evolucionar hacia una **organización verdadera
 
 ---
 
+
+
 Referencias
 
 > Foster Provost, & Tom Fawcett. (2013). Data science for business: What you need to know about data mining and data-analytic thinking. Sebastopol, CA: O'Reilly Media.
