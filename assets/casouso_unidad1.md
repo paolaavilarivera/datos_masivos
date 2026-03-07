@@ -98,132 +98,15 @@ Como resultado, la empresa logra evolucionar hacia una **organización verdadera
 
 ---
 
+Referencias
 
+> Foster Provost, & Tom Fawcett. (2013). Data science for business: What you need to know about data mining and data-analytic thinking. Sebastopol, CA: O'Reilly Media.
 
-## (MLOps + Agentic AI + Data Platform)
+> Bill Inmon. (2016). Building the data warehouse (4th ed.). Indianapolis, IN: John Wiley & Sons.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                             CAPA DE NEGOCIO Y PROCESOS                                   │
-│-----------------------------------------------------------------------------------------│
-│ Business Process Management (BPM)                                                        │
-│ Procesos organizacionales • Automatización • Toma de decisiones basada en datos        │
-│ Sistemas empresariales: ERP | CRM | Sistemas estadísticos | Plataformas digitales      │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-                                         │
-                                         ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                               CAPA DE INGESTA DE DATOS                                   │
-│-----------------------------------------------------------------------------------------│
-│ Batch ingestion  |  Streaming ingestion  |  APIs  |  IoT / Sensores                     │
-│-----------------------------------------------------------------------------------------│
-│ Kafka / Event Streaming │ Data Connectors │ Web Scraping │ APIs externas                │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-                                         │
-                                         ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                           DATA ENGINEERING & DATAOPS                                     │
-│-----------------------------------------------------------------------------------------│
-│ ETL / ELT Pipelines                                                                     │
-│ Data Quality Management                                                                 │
-│ Data Lineage                                                                            │
-│ Data Catalog                                                                            │
-│ Metadata Management                                                                     │
-│-----------------------------------------------------------------------------------------│
-│ Orquestación: Airflow / Prefect / Dagster                                               │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-                                         │
-                                         ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                         DATA PLATFORM (DATA LAKEHOUSE)                                   │
-│-----------------------------------------------------------------------------------------│
-│ Data Lake (datos crudos)                                                                │
-│ Data Warehouse (datos estructurados)                                                    │
-│ Feature Store                                                                           │
-│ Vector Database (embeddings semánticos)                                                 │
-│-----------------------------------------------------------------------------------------│
-│ Tecnologías típicas:                                                                    │
-│ Delta Lake / Iceberg / Hudi                                                             │
-│ Snowflake / BigQuery / Databricks                                                       │
-│ Pinecone / Weaviate / Milvus                                                            │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-            │                         │                          │
-            ▼                         ▼                          ▼
+> Chip Huyen. (2022). Designing machine learning systems: An iterative process for production-ready applications. Sebastopol, CA: O'Reilly Media.
 
-┌──────────────────────┐   ┌───────────────────────────┐   ┌────────────────────────────┐
-│ BUSINESS INTELLIGENCE │   │   BUSINESS ANALYTICS      │   │        DATA SCIENCE         │
-│----------------------│   │---------------------------│   │-----------------------------│
-│ Dashboards           │   │ Análisis descriptivo      │   │ Feature Engineering         │
-│ KPIs                 │   │ Modelos predictivos       │   │ Machine Learning            │
-│ Reportes ejecutivos  │   │ Optimización              │   │ Deep Learning               │
-│ Data Visualization   │   │ Simulación                │   │ NLP / Computer Vision       │
-└──────────────────────┘   └───────────────────────────┘   └───────────────┬─────────────┘
-                                                                          │
-                                                                          ▼
+> Andriy Burkov. (2019). The hundred-page machine learning book. Quebec, Canada: Andriy Burkov.
 
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                PLATAFORMA MLOPS                                          │
-│-----------------------------------------------------------------------------------------│
-│ Experiment Tracking                                                                     │
-│ Model Registry                                                                          │
-│ Model Versioning                                                                        │
-│ Automated Training Pipelines                                                            │
-│ Continuous Integration / Continuous Deployment (CI/CD)                                 │
-│-----------------------------------------------------------------------------------------│
-│ Model Monitoring                                                                        │
-│ Data Drift Detection                                                                    │
-│ Model Drift Detection                                                                   │
-│ Observabilidad de modelos                                                               │
-│-----------------------------------------------------------------------------------------│
-│ Herramientas típicas: MLflow | Kubeflow | SageMaker | Vertex AI                         │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-                                          │
-                                          ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                        AGENTIC AI PLATFORM (INTELIGENCIA AUTÓNOMA)                      │
-│-----------------------------------------------------------------------------------------│
-│ LLMs (Large Language Models)                                                            │
-│ SLMs (Small Language Models especializados)                                             │
-│-----------------------------------------------------------------------------------------│
-│ RAG Architecture                                                                        │
-│ Retrieval Engines                                                                       │
-│ Knowledge Bases                                                                         │
-│ Vector Search                                                                           │
-│-----------------------------------------------------------------------------------------│
-│ Agent Orchestration                                                                     │
-│ Multi-Agent Systems                                                                     │
-│ Tool Use / Function Calling                                                             │
-│ Autonomous Decision Loops                                                               │
-│-----------------------------------------------------------------------------------------│
-│ Frameworks típicos:                                                                     │
-│ LangChain | LlamaIndex | AutoGen | CrewAI                                               │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-                                          │
-                                          ▼
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                           CAPA DE SERVICIOS INTELIGENTES                                 │
-│-----------------------------------------------------------------------------------------│
-│ Sistemas de recomendación                                                               │
-│ Asistentes cognitivos                                                                   │
-│ Automatización inteligente de procesos                                                  │
-│ Analítica aumentada                                                                     │
-│ Generación automática de reportes                                                       │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-
-════════════════════════════════ CAPA TRANSVERSAL ════════════════════════════════════════
-
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                         DATA GOVERNANCE & AI GOVERNANCE                                  │
-│-----------------------------------------------------------------------------------------│
-│ Calidad de datos                                                                        │
-│ Privacidad diferencial                                                                  │
-│ Seguridad de datos                                                                      │
-│ Cumplimiento normativo                                                                  │
-│ Auditoría algorítmica                                                                   │
-│ Gestión de sesgos en IA                                                                 │
-│ Responsible AI                                                                          │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
+> Lilian Weng. (2023). LLM-powered autonomous agents. San Francisco, CA: OpenAI Research.
 
