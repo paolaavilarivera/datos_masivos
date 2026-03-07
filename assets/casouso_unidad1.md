@@ -98,5 +98,132 @@ A continuación se muestra un **diagrama conceptual de arquitectura y flujo de i
 │ Gobierno del ciclo de vida de datos y modelos de IA                          │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
+A continuación se presenta una **Arquitectura de Referencia Avanzada para Inteligencia Artificial basada en MLOps + Agentic AI**, diseñada para organizaciones **data-driven** que integran **Data Lakehouse, analítica avanzada, modelos de IA y agentes inteligentes autónomos**. Esta arquitectura es consistente con entornos modernos de **AI Platforms**, y resulta particularmente adecuada para **laboratorios de ciencia de datos, centros de analítica avanzada o plataformas institucionales de datos**.
 
+---
+
+## (MLOps + Agentic AI + Data Platform)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                             CAPA DE NEGOCIO Y PROCESOS                                  │
+│-----------------------------------------------------------------------------------------│
+│ Business Process Management (BPM)                                                       │
+│ Procesos organizacionales • Automatización • Toma de decisiones basada en datos         │
+│ Sistemas empresariales: ERP | CRM | Sistemas estadísticos | Plataformas digitales       │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                               CAPA DE INGESTA DE DATOS                                  │
+│-----------------------------------------------------------------------------------------│
+│ Batch ingestion  |  Streaming ingestion  |  APIs  |  IoT / Sensores                     │
+│-----------------------------------------------------------------------------------------│
+│ Kafka / Event Streaming │ Data Connectors │ Web Scraping │ APIs externas                │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                           DATA ENGINEERING & DATAOPS                                    │
+│-----------------------------------------------------------------------------------------│
+│ ETL / ELT Pipelines                                                                     │
+│ Data Quality Management                                                                 │
+│ Data Lineage                                                                            │
+│ Data Catalog                                                                            │
+│ Metadata Management                                                                     │
+│-----------------------------------------------------------------------------------------│
+│ Orquestación: Airflow / Prefect / Dagster                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                         DATA PLATFORM (DATA LAKEHOUSE)                                  │
+│-----------------------------------------------------------------------------------------│
+│ Data Lake (datos crudos)                                                                │
+│ Data Warehouse (datos estructurados)                                                    │
+│ Feature Store                                                                           │
+│ Vector Database (embeddings semánticos)                                                 │
+│-----------------------------------------------------------------------------------------│
+│ Tecnologías típicas:                                                                    │
+│ Delta Lake / Iceberg / Hudi                                                             │
+│ Snowflake / BigQuery / Databricks                                                       │
+│ Pinecone / Weaviate / Milvus                                                            │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+            │                         │                          │
+            ▼                         ▼                          ▼
+
+┌──────────────────────┐   ┌───────────────────────────┐   ┌──────────────────────────-──┐
+│ BUSINESS INTELLIGENCE│   │   BUSINESS ANALYTICS      │   │        DATA SCIENCE         │
+│----------------------│   │---------------------------│   │-----------------------------│
+│ Dashboards           │   │ Análisis descriptivo      │   │ Feature Engineering         │
+│ KPIs                 │   │ Modelos predictivos       │   │ Machine Learning            │
+│ Reportes ejecutivos  │   │ Optimización              │   │ Deep Learning               │
+│ Data Visualization   │   │ Simulación                │   │ NLP / Computer Vision       │
+└──────────────────────┘   └───────────────────────────┘   └───────────────┬─────────────┘
+                                                                          │
+                                                                          ▼
+
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                                PLATAFORMA MLOPS                                         │
+│-----------------------------------------------------------------------------------------│
+│ Experiment Tracking                                                                     │
+│ Model Registry                                                                          │
+│ Model Versioning                                                                        │
+│ Automated Training Pipelines                                                            │
+│ Continuous Integration / Continuous Deployment (CI/CD)                                  │
+│-----------------------------------------------------------------------------------------│
+│ Model Monitoring                                                                        │
+│ Data Drift Detection                                                                    │
+│ Model Drift Detection                                                                   │
+│ Observabilidad de modelos                                                               │
+│-----------------------------------------------------------------------------------------│
+│ Herramientas típicas: MLflow | Kubeflow | SageMaker | Vertex AI                         │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                        AGENTIC AI PLATFORM (INTELIGENCIA AUTÓNOMA)                      │
+│-----------------------------------------------------------------------------------------│
+│ LLMs (Large Language Models)                                                            │
+│ SLMs (Small Language Models especializados)                                             │
+│-----------------------------------------------------------------------------------------│
+│ RAG Architecture                                                                        │
+│ Retrieval Engines                                                                       │
+│ Knowledge Bases                                                                         │
+│ Vector Search                                                                           │
+│-----------------------------------------------------------------------------------------│
+│ Agent Orchestration                                                                     │
+│ Multi-Agent Systems                                                                     │
+│ Tool Use / Function Calling                                                             │
+│ Autonomous Decision Loops                                                               │
+│-----------------------------------------------------------------------------------------│
+│ Frameworks típicos:                                                                     │
+│ LangChain | LlamaIndex | AutoGen | CrewAI                                               │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+                                          │
+                                          ▼
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                           CAPA DE SERVICIOS INTELIGENTES                                │
+│-----------------------------------------------------------------------------------------│
+│ Sistemas de recomendación                                                               │
+│ Asistentes cognitivos                                                                   │
+│ Automatización inteligente de procesos                                                  │
+│ Analítica aumentada                                                                     │
+│ Generación automática de reportes                                                       │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+
+════════════════════════════════ CAPA TRANSVERSAL ════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                         DATA GOVERNANCE & AI GOVERNANCE                                 │
+│-----------------------------------------------------------------------------------------│
+│ Calidad de datos                                                                        │
+│ Privacidad diferencial                                                                  │
+│ Seguridad de datos                                                                      │
+│ Cumplimiento normativo                                                                  │
+│ Auditoría algorítmica                                                                   │
+│ Gestión de sesgos en IA                                                                 │
+│ Responsible AI                                                                          │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
