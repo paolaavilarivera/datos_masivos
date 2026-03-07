@@ -5,7 +5,7 @@
 - 1.2 [Data Analysis, Data Analytics, Data Engineer, Data Scientist](assets/dataroles.md)
 - 1.3 [De la hoja de cálculo al trabajo en la nube](assets/hojacalculonube.md)
 - 1.4 El arte de la visualización de los datos: [Flourish](assets/flourish.md) – [Gapminder](assets/gapminder.md) - [Gephi](assets/gephi.md).
-- 1.5 Casos prácticos:[Caso 1](assets/casouso_unidad1.md)
+- 1.5 Casos prácticos: [Caso 1](assets/casouso_unidad1.md)
 
 #### Unidad 2 [Descubrimientos en los datos a través de Cognos analytics de IBM](assets/ibm_cognos.md)
 - 2.1 [Creación de cuenta en Cognos Analytics y exploración de la plataforma de IBM](assets/ibm_cognos.md)
