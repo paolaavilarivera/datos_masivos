@@ -16,8 +16,6 @@ Finalmente, toda la arquitectura se encuentra respaldada por un marco sólido de
 
 Como resultado, la empresa logra evolucionar hacia una **organización verdaderamente data-driven**, donde la integración de procesos, analítica avanzada e inteligencia artificial genera mejoras sustanciales en eficiencia operativa, innovación y capacidad de adaptación en entornos altamente dinámicos.
 
-A continuación se muestra un **diagrama conceptual de arquitectura y flujo de interoperabilidad** que representa la interconectividad entre **BPM, Data Lakehouse, Business Intelligence, Business Analytics, Data Science y Agentes Computacionales Inteligentes**, así como los componentes transversales de **gobernanza, seguridad y privacidad de datos**.
-
 ```
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                 BUSINESS PROCESS MANAGEMENT (BPM)                         │
