@@ -97,8 +97,6 @@ A continuación se muestra un **diagrama conceptual de arquitectura y flujo de i
 │ Cumplimiento normativo │ Auditoría │ Mitigación de sesgos algorítmicos │     │
 │ Gobierno del ciclo de vida de datos y modelos de IA                          │
 └──────────────────────────────────────────────────────────────────────────────┘
-```
-A continuación se presenta una **Arquitectura de Referencia Avanzada para Inteligencia Artificial basada en MLOps + Agentic AI**, diseñada para organizaciones **data-driven** que integran **Data Lakehouse, analítica avanzada, modelos de IA y agentes inteligentes autónomos**. Esta arquitectura es consistente con entornos modernos de **AI Platforms**, y resulta particularmente adecuada para **laboratorios de ciencia de datos, centros de analítica avanzada o plataformas institucionales de datos**.
 
 ---
 
