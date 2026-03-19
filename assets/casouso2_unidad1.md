@@ -113,7 +113,6 @@ Finalmente, el CISO establece estrategias de continuidad del negocio y recuperac
 En conjunto, estas acciones permiten que LexSynergy Abogados opere en un entorno seguro, confiable y resiliente, consolidando la seguridad de la información como un componente estratégico dentro de su transformación digital.
 
 ```
-
 -------------------------------------EL DIAGRAMA YA SE EDITÓ PERO ADELANTE SI QUIEREN HACER MEJORAS-------------------------------
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                 BUSINESS PROCESS MANAGEMENT (BPM)                         │
@@ -194,7 +193,7 @@ En conjunto, estas acciones permiten que LexSynergy Abogados opere en un entorno
 │ Seguridad en IA │ Prevención de fugas (LLMs) │ Gobierno de datos             │
 │ Responsable: CISO                                                            │
 └──────────────────────────────────────────────────────────────────────────────┘
----
+```
 
 **Referencias**
 
