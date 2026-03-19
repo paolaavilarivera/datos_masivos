@@ -32,12 +32,12 @@ En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados 
 
 ----------------------ESTO YA SE EDITÓ-----------------------
 
-*******AGREGAR SUS FUNCIONES ESPECÍFICAS*********
+*******AGREGAR SUS FUNCIONES ESPECÍFICAS*******
 
 
 
 
-****** YA SE AGREGARON LAS FUNCIONES DEL CISO (PAO)***********
+-----------*******YA SE AGREGARON LAS FUNCIONES DEL CISO (PAO)*******------------
 
 **Seguridad de la Información y Rol del CISO**
 
