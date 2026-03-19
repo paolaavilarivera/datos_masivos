@@ -1,5 +1,5 @@
 ## Caso 2
--------------------------------------ESTO YA SE EDITÓ-------------------------------
+----------------------ESTO YA SE EDITÓ-----------------------
 
 Una firma legal ficticia denominada **“LexSynergy Abogados”**, especializada en servicios jurídicos corporativos, litigio estratégico y asesoría regulatoria, decide implementar una **estrategia integral de gestión y explotación avanzada de datos** con el objetivo de optimizar la gestión de casos, mejorar la toma de decisiones legales y fortalecer su ventaja competitiva en un entorno altamente regulado.
 
@@ -30,7 +30,7 @@ De manera complementaria, el área de Business Analytics implementa modelos anal
 
 En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados en **Machine Learning, Deep Learning y Procesamiento de Lenguaje Natural (PLN)**, especialmente orientados al análisis de textos legales, clasificación de documentos, extracción de cláusulas y análisis de jurisprudencia.
 
--------------------------------------ESTO YA SE EDITÓ-------------------------------
+----------------------ESTO YA SE EDITÓ-----------------------
 
 *******AGREGAR SUS FUNCIONES ESPECÍFICAS*********
 
@@ -38,6 +38,7 @@ En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados 
 
 
 ****** YA SE AGREGARON LAS FUNCIONES DEL CISO (PAO)***********
+
 **Seguridad de la Información y Rol del CISO**
 
 Finalmente, para garantizar la protección de la información y la confiabilidad de los sistemas implementados, se incorpora el rol del Chief Information Security Officer (CISO), quien lidera la estrategia de seguridad dentro de la firma legal.
@@ -198,10 +199,17 @@ En conjunto, estas acciones permiten que LexSynergy Abogados opere en un entorno
 **Referencias**
 
 > Provost, F., & Fawcett, T. (2013). Data Science for Business. O’Reilly.
+> 
 > Inmon, W. (2016). Building the Data Warehouse. Wiley.
+> 
 > Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly.
+> 
 > Burkov, A. (2019). The Hundred-Page Machine Learning Book.
+> 
 > Russell, S., & Norvig, P. (2021). Artificial Intelligence: A Modern Approach. Pearson.
+> 
 > Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+> 
 > Ashley, K. D. (2017). Artificial Intelligence and Legal Analytics. Cambridge University Press.
+> 
 > Susskind, R. (2019). Online Courts and the Future of Justice. Oxford University Press.
