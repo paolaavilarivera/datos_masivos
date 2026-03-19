@@ -1,5 +1,6 @@
-#### Caso 2
--------------------------------------------------------------------------------ESTO YA SE EDITÓ-------------------------------------------------------------------------------------------------------------------------------
+## Caso 2
+-------------------------------------ESTO YA SE EDITÓ-------------------------------
+
 Una firma legal ficticia denominada **“LexSynergy Abogados”**, especializada en servicios jurídicos corporativos, litigio estratégico y asesoría regulatoria, decide implementar una **estrategia integral de gestión y explotación avanzada de datos** con el objetivo de optimizar la gestión de casos, mejorar la toma de decisiones legales y fortalecer su ventaja competitiva en un entorno altamente regulado.
 
 Esta estrategia se fundamenta en la integración de **Business Process Management (BPM)**, analítica avanzada, ciencia de datos y agentes computacionales inteligentes, soportados sobre una arquitectura moderna basada en **Data Warehouse, Data Lake y Data Lakehouse**.
@@ -29,14 +30,15 @@ De manera complementaria, el área de Business Analytics implementa modelos anal
 
 En un nivel más avanzado, el equipo de Data Science desarrolla modelos basados en **Machine Learning, Deep Learning y Procesamiento de Lenguaje Natural (PLN)**, especialmente orientados al análisis de textos legales, clasificación de documentos, extracción de cláusulas y análisis de jurisprudencia.
 
--------------------------------------------------------------------------------ESTO YA SE EDITÓ-------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------ESTO YA SE EDITÓ-------------------------------
+
 *******AGREGAR SUS FUNCIONES ESPECÍFICAS*********
 
 
 
 
 ****** YA SE AGREGARON LAS FUNCIONES DEL CISO (PAO)***********
-## Seguridad de la Información y Rol del CISO
+**Seguridad de la Información y Rol del CISO**
 
 Finalmente, para garantizar la protección de la información y la confiabilidad de los sistemas implementados, se incorpora el rol del Chief Information Security Officer (CISO), quien lidera la estrategia de seguridad dentro de la firma legal.
 
@@ -44,7 +46,7 @@ Si bien la organización contempla diversos roles estratégicos como el CEO, lí
 
 En el contexto de LexSynergy Abogados, la seguridad de la información se convierte en un pilar fundamental, ya que la exposición o filtración de datos puede derivar en consecuencias legales, reputacionales y financieras significativas. Por ello, el CISO no solo actúa como responsable técnico, sino como un actor estratégico en la gobernanza organizacional.
 
-### Protección de la información y control de accesos
+**Protección de la información y control de accesos**
 
 El CISO establece políticas de seguridad orientadas a la protección de la confidencialidad, integridad y disponibilidad de la información. Para ello, se implementan mecanismos como:
 
@@ -55,7 +57,7 @@ El CISO establece políticas de seguridad orientadas a la protección de la conf
 
 Estas medidas permiten asegurar que únicamente el personal autorizado acceda a información crítica, especialmente en el manejo de expedientes legales y documentación confidencial.
 
-### Cumplimiento normativo y regulatorio
+**Cumplimiento normativo y regulatorio**
 
 Dado que la firma opera en un entorno altamente regulado, el CISO garantiza el cumplimiento de normativas relacionadas con la protección de datos personales y el secreto profesional. Esto implica:
 
@@ -66,7 +68,7 @@ Dado que la firma opera en un entorno altamente regulado, el CISO garantiza el c
 
 El cumplimiento normativo no solo evita sanciones, sino que fortalece la confianza de los clientes en la firma.
 
-### Seguridad en arquitecturas de datos y modelos de IA
+**Seguridad en arquitecturas de datos y modelos de IA**
 
 La adopción de arquitecturas como Data Lakehouse y el uso de modelos de inteligencia artificial introduce nuevos riesgos que deben ser gestionados. En este sentido, el CISO supervisa:
 
@@ -77,7 +79,7 @@ La adopción de arquitecturas como Data Lakehouse y el uso de modelos de intelig
 
 Asimismo, se establecen mecanismos de monitoreo continuo para detectar comportamientos anómalos en los sistemas.
 
-### Gestión de riesgos y respuesta a incidentes
+**Gestión de riesgos y respuesta a incidentes**
 
 El CISO lidera la identificación, evaluación y mitigación de riesgos de seguridad mediante:
 
@@ -88,7 +90,7 @@ El CISO lidera la identificación, evaluación y mitigación de riesgos de segur
 
 En caso de una brecha de seguridad, se activan protocolos que permiten contener el incidente, minimizar daños y garantizar la continuidad operativa.
 
-### Gobernanza y ética de datos
+**Gobernanza y ética de datos**
 
 Además de la seguridad técnica, el CISO participa activamente en la gobernanza de datos y en la supervisión del uso ético de la inteligencia artificial. Esto incluye:
 
@@ -99,7 +101,7 @@ Además de la seguridad técnica, el CISO participa activamente en la gobernanza
 
 Este enfoque asegura que la tecnología no solo sea eficiente, sino también responsable y alineada con principios legales y éticos.
 
-### Continuidad del negocio y resiliencia organizacional
+**Continuidad del negocio y resiliencia organizacional**
 
 Finalmente, el CISO establece estrategias de continuidad del negocio y recuperación ante desastres, garantizando que la firma pueda mantener sus operaciones incluso ante eventos adversos. Esto incluye:
 
@@ -111,98 +113,96 @@ Finalmente, el CISO establece estrategias de continuidad del negocio y recuperac
 En conjunto, estas acciones permiten que LexSynergy Abogados opere en un entorno seguro, confiable y resiliente, consolidando la seguridad de la información como un componente estratégico dentro de su transformación digital.
 
 ```
+
+-------------------------------------EL DIAGRAMA YA SE EDITÓ PERO ADELANTE SI QUIEREN HACER MEJORAS-------------------------------
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                 BUSINESS PROCESS MANAGEMENT (BPM)                         │
-│              Procesos • Roles • Tecnología • Automatización               │
+│ Procesos legales • Roles • Automatización • Gestión de expedientes        │
 └───────────────────────────────────────────────────────────────────────────┘
                                    │
-                                   │ Orquestación de procesos
                                    ▼
 ┌───────────────────────────────────────────────────────────────────────────┐
-│                        FUENTES DE DATOS EMPRESARIALES                     │
+│                     FUENTES DE DATOS JURÍDICOS                            │
 │---------------------------------------------------------------------------│
-│ ERP │ CRM │ IoT / Sensores │ Sistemas Transaccionales │ Datos Externos    │
-│ Registros Geoespaciales │ APIs │ Documentos │ Logs Operacionales          │
+│ Sistemas de casos │ Documentos legales │ Jurisprudencia │ Correos         │
+│ Bases normativas │ APIs legales │ Contratos │ Expedientes digitales       │
 └───────────────────────────────────────────────────────────────────────────┘
                                    │
-                                   │ Ingesta de datos
                                    ▼
 ┌───────────────────────────────────────────────────────────────────────────┐
-│                 PIPELINES DE INTEGRACIÓN Y PREPARACIÓN                    │
+│             PIPELINES DE INTEGRACIÓN Y PREPARACIÓN                        │
 │---------------------------------------------------------------------------│
-│                ELT / ETL – Data Engineering – Data Quality                │
-│        Orquestación de flujos │ Catalogación │ Linaje de datos            │
+│ ELT / ETL │ Limpieza de datos │ NLP preprocessing │ Catalogación          │
+│ Linaje de datos │ Data Quality │ Anonimización                            │
 └───────────────────────────────────────────────────────────────────────────┘
                                    │
                                    ▼
 ┌───────────────────────────────────────────────────────────────────────────┐
 │                    PLATAFORMA DE DATOS: DATA LAKEHOUSE                    │
 │---------------------------------------------------------------------------│
-│  Data Lake (datos crudos y semiestructurados)                             │
-│  Data Warehouse (datos estructurados para analítica)                      │
-│  Metadatos │ Catálogo │ Versionado │ Gestión de almacenamiento            │
+│ Datos estructurados (casos) │ No estructurados (documentos legales)       │
+│ Metadatos │ Versionado │ Gobierno documental                              │
 └───────────────────────────────────────────────────────────────────────────┘
-             │                     │                       │
              │                     │                       │
              ▼                     ▼                       ▼
 
-┌──────────────────────┐   ┌───────────────────-───┐   ┌────────────────────────┐
-│   BUSINESS           │   │   BUSINESS            │   │     DATA SCIENCE       │
-│   INTELLIGENCE       │   │   ANALYTICS           │   │                        │
-│----------------------│   │-----------------------│   │------------------------│
-│ Dashboards           │   │ Analítica Descriptiva │   │ ML / Deep Learning     │
-│ KPIs                 │   │ Analítica Predictiva  │   │ NLP / CV               │
-│ Reportes ejecutivos  │   │ Analítica Prescriptiva│   │ Feature Engineering    │
-│ Data Visualization   │   │ Optimización          │   │ Entrenamiento modelos  │
-└──────────────────────┘   └────────────────-──────┘   │ MLOps / Model Serving  │
-                                                       └─────────────┬──────────┘
-                                                                    │
+┌──────────────────────┐   ┌──────────────────────┐   ┌────────────────────────┐
+│ BUSINESS             │   │ BUSINESS             │   │ DATA SCIENCE           │
+│ INTELLIGENCE         │   │ ANALYTICS            │   │                        │
+│----------------------│   │----------------------│   │------------------------│
+│ KPIs legales         │   │ Análisis descriptivo │   │ NLP jurídico           │
+│ Dashboards           │   │ Predicción litigios  │   │ Clasificación docs     │
+│ Reportes             │   │ Optimización casos   │   │ Modelos ML             │
+└──────────────────────┘   └──────────────────────┘   │ MLOps                  │
+                                                      └─────────────┬──────────┘
                                                                     ▼
-                                       ┌────────────────────────────────────────┐
-                                       │   AGENTES COMPUTACIONALES INTELIGENTES │
-                                       │----------------------------------------│
-                                       │ LLMs (Large Language Models)           │
-                                       │ SLMs (Small Language Models)           │
-                                       │ RAG (Retrieval Augmented Generation)   │
-                                       │ MCP (Model Context Protocols)          │
-                                       │ Automatización de análisis             │
-                                       │ Generación de conocimiento             │
-                                       └────────────────────────────────────────┘
-                                                                    │
-                                                                    ▼
-                                    ┌─────────────────────────────────────────┐
-                                    │    SOPORTE A LA TOMA DE DECISIONES      │
-                                    │-----------------------------------------│
-                                    │ Optimización de operaciones             │
-                                    │ Inteligencia empresarial aumentada      │
-                                    │ Automatización de procesos              │
-                                    │ Sistemas de recomendación               │
-                                    └─────────────────────────────────────────┘
+                              ┌──────────────────────────────────────────────┐
+                              │ AGENTES INTELIGENTES JURÍDICOS               │
+                              │----------------------------------------------│
+                              │ LLMs / SLMs                                  │
+                              │ RAG con bases legales                        │
+                              │ Generación de contratos                      │
+                              │ Análisis de jurisprudencia                   │
+                              │ Asistencia legal automatizada                │
+                              └───────────────────────────────┬──────────────┘
+                                                              ▼
+                    ┌────────────────────────────────────────────────────────┐
+                    │    SOPORTE A LA TOMA DE DECISIONES LEGALES             │
+                    │--------------------------------------------------------│
+                    │ Estrategia jurídica │ Evaluación de riesgos legales    │
+                    │ Optimización de litigios │ Cumplimiento normativo      │
+                    └────────────────────────────────────────────────────────┘
 
 
-════════════════════════════════ CAPA TRANSVERSAL ════════════════════════════════
+════════════════════════════ CAPA TRANSVERSAL ════════════════════════════════
 
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│                     GOBERNANZA, SEGURIDAD Y ÉTICA DE DATOS                   │
+│          GOBERNANZA, SEGURIDAD Y ÉTICA (CISO + DATA GOVERNANCE)              │
 │------------------------------------------------------------------------------│
-│ Calidad de datos │ Gestión de metadatos │ Privacidad │ Seguridad │           │
-│ Cumplimiento normativo │ Auditoría │ Mitigación de sesgos algorítmicos │     │
-│ Gobierno del ciclo de vida de datos y modelos de IA                          │
+│ Privacidad de datos │ Cifrado │ Control de accesos │ Auditoría               │
+│ Cumplimiento legal │ Protección de información confidencial                  │
+│ Ética en IA │ Prevención de sesgos │ Seguridad en modelos                    │
 └──────────────────────────────────────────────────────────────────────────────┘
 
+════════════════════════════ CAPA TRANSVERSAL ════════════════════════════════
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│     GOBERNANZA, SEGURIDAD Y ÉTICA (CISO)                                     │
+│------------------------------------------------------------------------------│
+│ Privacidad de datos │ Cifrado │ Control de accesos │ Auditoría               │
+│ Cumplimiento legal │ Gestión de riesgos │ Respuesta a incidentes             │
+│ Seguridad en IA │ Prevención de fugas (LLMs) │ Gobierno de datos             │
+│ Responsable: CISO                                                            │
+└──────────────────────────────────────────────────────────────────────────────┘
 ---
 
+**Referencias**
 
-
-Referencias
-
-> Foster Provost, & Tom Fawcett. (2013). Data science for business: What you need to know about data mining and data-analytic thinking. Sebastopol, CA: O'Reilly Media.
-
-> Bill Inmon. (2016). Building the data warehouse (4th ed.). Indianapolis, IN: John Wiley & Sons.
-
-> Chip Huyen. (2022). Designing machine learning systems: An iterative process for production-ready applications. Sebastopol, CA: O'Reilly Media.
-
-> Andriy Burkov. (2019). The hundred-page machine learning book. Quebec, Canada: Andriy Burkov.
-
-> Lilian Weng. (2023). LLM-powered autonomous agents. San Francisco, CA: OpenAI Research.
-
+> Provost, F., & Fawcett, T. (2013). Data Science for Business. O’Reilly.
+> Inmon, W. (2016). Building the Data Warehouse. Wiley.
+> Huyen, C. (2022). Designing Machine Learning Systems. O’Reilly.
+> Burkov, A. (2019). The Hundred-Page Machine Learning Book.
+> Russell, S., & Norvig, P. (2021). Artificial Intelligence: A Modern Approach. Pearson.
+> Goodfellow, I., Bengio, Y., & Courville, A. (2016). Deep Learning. MIT Press.
+> Ashley, K. D. (2017). Artificial Intelligence and Legal Analytics. Cambridge University Press.
+> Susskind, R. (2019). Online Courts and the Future of Justice. Oxford University Press.
